@@ -15,3 +15,4 @@ if ($jam >= 5 && $jam < 11) {
 }
 
 echo "{$sapaan} {$nama}, sekarang pukul {$waktu}\n";
+?>
