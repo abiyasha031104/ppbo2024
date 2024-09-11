@@ -40,7 +40,7 @@ class Kerucut
     }
 }
 
-$nasi_tumpeng = new Kerucut();
+$nasi_tumpeng = new Kerucut(4,10);
 
 $jari_jari = 4; 
 $tinggi = 10;   
