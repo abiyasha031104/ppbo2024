@@ -47,7 +47,7 @@ class Kerucut
 }
 
 
-$nasi_tumpeng = new Kerucut();
+$nasi_tumpeng = new Kerucut(4,10);
 $nasi_tumpeng->jari_jari = 4; 
 $nasi_tumpeng->tinggi = 10;   
 
@@ -57,7 +57,7 @@ $volume_nasi_tumpeng = $nasi_tumpeng->volume();
 
 echo "Volume nasi tumpeng dengan jari-jari {$nasi_tumpeng->jari_jari} cm dan tinggi {$nasi_tumpeng->tinggi} cm adalah: {$volume_nasi_tumpeng} cm³\n";
 
-$kerucut_kecil = new Kerucut();
+$kerucut_kecil = new Kerucut(3,5);
 $kerucut_kecil->jari_jari = 3; 
 $kerucut_kecil->tinggi = 5;
 
@@ -67,7 +67,7 @@ echo "Volume kerucut kecil dengan jari-jari {$kerucut_kecil->jari_jari} cm dan t
 
 
 
-$lingkaran = new Lingkaran();
+$lingkaran = new Lingkaran(7);
 $lingkaran->jari_jari = 7; 
 
 
@@ -79,14 +79,14 @@ echo "Luas lingkaran dengan jari-jari {$lingkaran->jari_jari} cm adalah: {$luas_
 echo "Keliling lingkaran dengan jari-jari {$lingkaran->jari_jari} cm adalah: {$keliling_lingkaran} cm\n";
 
 
-$bola = new Bola();
+$bola = new Bola(5);
 $bola->jari_jari = 5; 
 
 $volume_bola = $bola->volume();
 
 echo "Volume bola dengan jari-jari {$bola->jari_jari} cm adalah: {$volume_bola} cm³\n";
 
-$tabung = new Tabung();
+$tabung = new Tabung(6,12);
 $tabung->jari_jari = 6; 
 $tabung->tinggi = 12;   
 
