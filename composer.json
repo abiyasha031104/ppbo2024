@@ -1,0 +1,20 @@
+{
+    "name": "abiyasha031104/ppbo2024",
+    "description": "merupakan package untuk latihan pemrograman berorientasi objek",
+    "type": "project",
+    "license": "MIT",
+    "authors" : [
+        {
+            "name": "abiyasha031104",
+            "email": "abiyasha626@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4":{
+            "App\\":"App"
+        }
+    }
+
+}
+
