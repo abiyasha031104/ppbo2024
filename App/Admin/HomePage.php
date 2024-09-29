@@ -1,5 +1,5 @@
 <?php
-namespace App\Admin;
+namespace App\Admin; 
 class HomePage
 {
     public function tampil() : void {
