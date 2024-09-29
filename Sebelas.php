@@ -1,14 +1,10 @@
 <?php
+
+use App\Model\Akademik\Dosen;
+
 require_once 'vendor/autoload.php';
 
-use App\Admin\Dosen;
-
-$dian = New Dosen();
-$dian->nama = 'Dian Prawira';
-$dian->nip = '198411132015041001';
-$dian->setNoHp(62111111);
-$dian-> alamat = 'Jln purnama';
-$dian->nidn = '0013118405';
-
-$dian->mengajar();
-?>
+$dian = new Dosen(nip: 198411132015041001, nama : "Dian Prawira", no_hp:  62111111, alamat:  "Jln Purnama", nidn: "1000121184001");
+$dian->mengajar(); 
+$dian->nidn = "1000121184001";
+$dian->getNoHp();
